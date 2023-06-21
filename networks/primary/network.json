@@ -185,6 +185,10 @@
         "BRK1"
       ]
     },
+    "CanFlashStatus": {
+      "type": "enum",
+      "items": ["NO_FLASH", "FLASH", "PREPARING_TO_FLASH"]
+    },
     "HandcartStatus": {
       "type": "enum",
       "items": [
